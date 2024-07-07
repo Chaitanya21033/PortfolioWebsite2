@@ -1,0 +1,17 @@
+.sidebar1{
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-self: center;
+}
+#side1{
+    padding: 1rem 1rem;
+}
+@media screen and (min-width: 750px) {
+    .sidebar1{
+        display: none;
+    }
+}

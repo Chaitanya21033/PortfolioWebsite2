@@ -1,0 +1,30 @@
+.vertical-text {
+    position: fixed;
+    writing-mode: vertical-rl;
+    color: #a8b2d1;
+    font-size: 12px;
+    font-family: var(--font-mono);
+    letter-spacing: 3px;
+    right: 2rem;
+    padding-left: 2px;
+    display: flex;
+    flex-direction: row;
+    top: 40%;
+
+}
+.vertical-text::after{
+    content: "";
+    display: block;
+    position: relative;
+    width: 2px;
+    height: 90px;
+    right: 8px;
+    margin-top: 1rem;
+    background-color:#a8b2d1 ;
+}
+@media screen and (max-width:750px) {
+    .vertical-text{
+        display: none;
+    }
+}
+  

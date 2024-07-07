@@ -1,0 +1,67 @@
+.container {
+    position: relative;
+    width: 500px;
+    padding-left: 15rem;
+    font-family: var(--font-mono);
+
+  }
+  
+  .project-image {
+    width: 400px;
+    height: auto;
+  }
+  
+  .project-name {
+    position: absolute;
+    font-family: var(--font-mono);
+    font-weight:900;
+    font-size:22px !important;
+    top: 50%;
+    right: -40%;
+    transform: translateY(-50%);
+    color: #fff; /* Adjust the text color */
+    font-size: 16px;
+    overflow: hidden;
+  }
+  .project-name::after {
+    content: '';
+    position: absolute;
+    bottom: -4px; /* Adjust the value to control the distance below the text */
+    left: 0;
+    right: 0;
+    height: 2px; /* Adjust the height of the underline as needed */
+    background-color: blue; /* Set the color of the underline */
+  }
+  
+  .dumb1{
+    color: #ccd6f6;
+    margin: 0px 0px 15px;
+    font-size: 24px ;
+    font-weight: bold;
+    padding-top: 16rem;
+    padding-left: 10rem;
+    position: relative;
+    padding-bottom: 6rem;
+  }
+  .dumb1::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: -10px;
+    width: 300px;
+    height: 1px;
+    margin-left: 18rem;
+    background-color:#233554;
+    box-sizing: inherit;
+    
+}
+  /* .project-name::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+   */
